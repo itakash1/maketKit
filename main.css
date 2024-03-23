@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
   font-family: "Quicksand", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-html, body{
-  background-color: black;
 }
 
 header a{
@@ -38,7 +34,10 @@ header a{
   display: flex;
   align-items: center;
   gap: 1rem;
+}
 
+.nav-link{
+  color: #697CA6;
 }
 
 .header-logo{
@@ -67,4 +66,72 @@ header a{
 
 .home-link{
   font-weight: 700;
+}
+
+.block-title{
+  display: flex;
+  height: 570px;
+  background-color: #F4F7FF;
+}
+
+.space-title{
+  height: 100%;
+  display: flex;
+}
+
+.text-title{
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #3D4F9F;
+}
+
+.text-title-1, .text-title-2, .text-title-3{
+
+}
+.text-title-1 p{
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 11.72px;
+  letter-spacing: 0.1em;
+}
+
+.text-title-2 p{
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.text-title-2 span{
+  font-weight: 700;
+}
+
+.text-title-3 p{
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28.65px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #8D96BD;
+}
+
+.play-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.play-btn-el{
+  width: 0;
+  height: 0;
+  border-radius: 10%;
+  border-top: 5px solid transparent;
+  border-left: 10px solid #5E81FF;
+  border-bottom: 5px solid transparent;
 }
