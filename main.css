@@ -135,3 +135,85 @@ header a{
   border-left: 10px solid #5E81FF;
   border-bottom: 5px solid transparent;
 }
+
+.custom-logos{
+  height: 146px;
+}
+
+.space-logos{
+  height: 146px;
+}
+
+.logos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.block-plan{
+  background-color: #F5F8FF;
+}
+
+.space-plan{
+  height: 776px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-plan{
+  display: flex;
+  flex-direction: column;
+}
+
+.text-plan div{
+  padding-bottom: 1rem;
+}
+
+.button-void{
+  padding-top: 2rem;
+}
+.text-plan p{
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  color: #3D4F9F;
+}
+
+.text-plan span{
+  font-weight: 700;
+  font-size: 36px;
+  color: #3D4F9F;
+}
+
+.text-plan h1{
+  color: #3D4F9F;
+  font-size: 36px;
+}
+
+.review-plan p{
+  font-size: 15px;
+  color: #8D96BD;
+}
+
+.button-void{
+  display: flex;
+}
+.button-void button{
+  width: 130px;
+  height: 43px;
+}
+
+.f-btn button{
+  background-color: #4C85FF;
+  color: white;
+  border: none;
+}
+
+.s-btn button{
+  background-color: rgba(1, 1, 1, 0);
+  color: #ADB4D2;
+  border: 1px solid #D1D1E4;
+}
+
+.img-plan{
+  display: flex;
+}
