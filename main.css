@@ -217,3 +217,60 @@ header a{
 .img-plan{
   display: flex;
 }
+
+.space-about{
+  height: 885px;
+  background-color: white;
+}
+
+.title-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #3D4F9F;
+}
+
+.title-about p{ 
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: medium;
+}
+
+.title-about h1{
+  font-size: 24px;
+  font-weight: medium;
+}
+
+.features-about{
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.features-about h1{
+  font-size: 14px;
+  font-weight: bold;
+  color: #4074F8;
+  padding-bottom: 15px;
+  padding-top: 25px;
+}
+
+.features-about p{
+  font-size: 11px;
+  font-weight: SemiBold;
+  color: #ADB3CB;
+  text-align: center;
+}
+
+.case1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.case2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
