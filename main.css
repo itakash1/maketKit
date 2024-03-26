@@ -119,6 +119,11 @@ header a{
   color: #8D96BD;
 }
 
+.play-title button{
+ border: none;
+ background-color: rgba(1, 1, 1, 0);
+}
+
 .play-btn{
   display: flex;
   justify-content: center;
@@ -309,14 +314,78 @@ header a{
   height: 43px;
   font-size: 13px;
   border: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .fir-btn button{
   color: #D43F3F;
   background-color: #FFD7D7;
 }
+
 .sec-btn button{
   color: #3A79FF;
   background-color: #D2E1FF;
+}
+
+.bg-stats{
+  background: linear-gradient(to left, #D8E3FE 50%, #5E80FF 50%);
+}
+
+.space-stats{
+}
+
+.block-stats{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 343px;
+  gap: 14rem;
+}
+
+.stats-first{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: end;
+  gap: 1rem;
+}
+
+.stats-first img{
+  max-width: max-content;
+}
+
+.stats-second{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  gap: 1rem;
+}
+
+.stats-first p{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.stats-first h1{
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.stats-second p{
+  color: #5E80FF;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.stats-second h1{
+  color: #5E80FF;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.stats-second img{
+  max-width: max-content;
 }
