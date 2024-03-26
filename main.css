@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
   font-family: "Quicksand", sans-serif;
   box-sizing: border-box;
@@ -221,6 +223,13 @@ header a{
 .space-about{
   height: 885px;
   background-color: white;
+  align-items: center;
+}
+
+.block-about{
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
 }
 
 .title-about{
@@ -245,7 +254,8 @@ header a{
 .features-about{
   display: flex;
   justify-content: center;
-  gap: 6rem;
+  align-items: center;
+  gap: 2rem;
 }
 
 .features-about h1{
@@ -258,19 +268,55 @@ header a{
 
 .features-about p{
   font-size: 11px;
-  font-weight: SemiBold;
   color: #ADB3CB;
   text-align: center;
 }
 
-.case1{
+.features-about hr{
+  width: 28px;
+  background-color: #DAE4FE;
+  opacity: 100%;
+}
+
+.case{
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.case2{
+.button-about{ 
   display: flex;
+  justify-content:  center;
   align-items: center;
-  flex-direction: column;
+  gap: 1rem;
+}
+
+.button-about hr{
+  width: 15px;
+  background-color: #DAE4FE;
+  opacity: 100%;
+}
+
+.block-about p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  color: #ADB3CB;
+  margin: 0;
+}
+
+.button-about button{
+  width: 113px;
+  height: 43px;
+  font-size: 13px;
+  border: none;
+  font-weight: 500;
+}
+
+.fir-btn button{
+  color: #D43F3F;
+  background-color: #FFD7D7;
+}
+.sec-btn button{
+  color: #3A79FF;
+  background-color: #D2E1FF;
 }
