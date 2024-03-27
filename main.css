@@ -54,6 +54,20 @@ header a{
   align-items: center;
   gap: 2rem;
 }
+.right-part-ico-btn{
+  display: flex;
+  gap: 1rem;
+}
+.right-part-ico-btn button{
+  border: none;
+  background-color: rgba(1, 1, 1, 0);
+  
+}
+
+.right-part-ico-btn button:hover{
+  transform: scale(1.5);
+  
+}
 
 .btn-getStarted{
   width: 113px;
@@ -331,9 +345,6 @@ header a{
   background: linear-gradient(to left, #D8E3FE 50%, #5E80FF 50%);
 }
 
-.space-stats{
-}
-
 .block-stats{
   display: flex;
   justify-content: center;
@@ -348,10 +359,6 @@ header a{
   align-items: end;
   text-align: end;
   gap: 1rem;
-}
-
-.stats-first img{
-  max-width: max-content;
 }
 
 .stats-second{
@@ -384,8 +391,4 @@ header a{
   color: #5E80FF;
   font-size: 48px;
   font-weight: 400;
-}
-
-.stats-second img{
-  max-width: max-content;
 }
