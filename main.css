@@ -63,7 +63,7 @@ header a{
   background-color: rgba(1, 1, 1, 0);
 }
 
-.right-part-ico-btn path:hover{
+.right-part-ico-btn button:hover path{
   fill: #6188FF;
 }
 
@@ -170,9 +170,10 @@ header a{
   align-items: center;
 }
 
-.logos path:hover{
+.logos div:hover path{
   fill: #6188FF;
 }
+
 .block-plan{
   background-color: #F5F8FF;
 }
