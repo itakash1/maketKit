@@ -437,6 +437,7 @@ header a{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .blog-text p{
   font-family: "Roboto", sans-serif;
@@ -451,21 +452,65 @@ header a{
   font-size: 24px;
 }
 
-/* .first-slide{
+.first-slide{
   margin: 0 auto;
+  gap: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
   width: 958px;
   height: 394px;
-  background-color: gray;
-} */
-
-/* .carousel-control-prev-icon{
-  background-image: url(./source/Vector.png);
-  width: 23px;
-  height: 15px;
 }
 
-.carousel-control-next-icon{
-  background-image: url(./source/Vector\ \(1\).png);
-  width: 23px;
-  height: 15px;
-} */
+.text-slide{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 408px;
+  height: 267px;
+}
+
+.text h1{
+  font-size: 36px;
+  color: #3D4F9F;
+}
+
+.text2 p{
+  font-family: "Roboto", sans-serif;
+  color: #8D96BD;
+  font-size: 14px;
+  width: 360px;
+  line-height: 191%;
+  letter-spacing: 3%;
+}
+
+.btn-slide button{
+  height: 43px;
+  font-size: 13px;
+  border: none;
+  font-weight: 600;
+  border-radius: 2%;
+}
+
+.btn1{
+  width: 113px;
+  color: #3A79FF;
+  background-color: #D2E1FF;
+}
+
+.btn2{
+  width: 211px;
+  color: #A6B6DA;
+  background-color: rgba(1, 1, 1, 0);
+}
+
+.carousel-cst{
+  display: flex;
+}
+
+.content-blog{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
