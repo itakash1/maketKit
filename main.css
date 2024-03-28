@@ -78,6 +78,11 @@ header a{
   font-weight: 700;
 }
 
+.btn-getStarted:hover{
+  background-color: #6188FF;
+  color: white;
+}
+
 .home-link{
   font-weight: 700;
 }
@@ -141,6 +146,10 @@ header a{
   height: 52px;
   background-color: white;
   border-radius: 50%;
+}
+
+.play-btn:hover{
+  background-color: #959595;
 }
 
 .play-btn-el{
@@ -232,10 +241,22 @@ header a{
   border: none;
 }
 
+.f-btn button:hover{
+  background-color: rgba(1, 1, 1, 0);
+  color: #ADB4D2;
+  border: 1px solid #D1D1E4;
+}
+
 .s-btn button{
   background-color: rgba(1, 1, 1, 0);
   color: #ADB4D2;
   border: 1px solid #D1D1E4;
+}
+
+.s-btn button:hover{
+  background-color: #4C85FF;
+  color: white;
+  border: none;
 }
 
 .img-plan{
@@ -339,9 +360,17 @@ header a{
   background-color: #FFD7D7;
 }
 
+.fir-btn button:hover{
+  background-color: #ffbdbd;
+}
+
 .sec-btn button{
   color: #3A79FF;
   background-color: #D2E1FF;
+}
+
+.sec-btn button:hover{
+  background-color: #abc7ff;
 }
 
 .bg-stats{
